@@ -1,12 +1,10 @@
 #include <stdio.h>
 #include <conio.h>
-void read_array(int m[10][10],int rows,int columns);
-void  add_array(int a1[10][10], int b1[10][10],int r[10][10],int rows,int columns);
-void print_array(int r[10][10],int rows,int columns);
 int main()
 {
     int a1[10][10],b1[10][10],r[10][10];
     int rows,columns;
+    int i,j;
     printf("enter the number of rows and columns \n");
     scanf("%d %d",&rows,&columns);
     read_array(a1,rows,columns);
